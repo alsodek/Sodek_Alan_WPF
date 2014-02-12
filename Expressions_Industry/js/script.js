@@ -9,7 +9,8 @@ var length = prompt("What is the length of the box?"); //Ask for the lenght of t
 
 var width = prompt("What is the width of the box?"); //Ask for the width of the box.
 
+var height = prompt("What is the height of the box?"); //Ask for the height of the box.
 
 
 
-console.log(width);
+console.log(height);
