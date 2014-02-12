@@ -9,7 +9,7 @@ var age = 4;
 //multiply human years by 7
 var dogYears = age * 7;
 
-console.log("Sparky is" + " " + age + " " + "human years old wich is" + " " + dogYears + " " + "in dog years.");
+console.log("Sparky is " + age + " human years old wich is " + dogYears + " in dog years.");
 
 
 
@@ -24,7 +24,7 @@ var pizzas = 3;
 var slicesPerPerson = pizzas * slices/people;
 
 //Display the info.
-console.log("Each person ate" + " " + slicesPerPerson + " " + "slices of pizza at the party.");
+console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
 
 
 
@@ -33,7 +33,7 @@ console.log("Each person ate" + " " + slicesPerPerson + " " + "slices of pizza a
 var sparkySlices = pizzas * slices%people;
 
 //Display the info.
-console.log("Sparky got" + " " + sparkySlices + " " + "slices of pizza.");
+console.log("Sparky got " + sparkySlices + " slices of pizza.");
 
 
 
@@ -48,7 +48,7 @@ var totalSpent = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + grocer
 var averageSpent = (groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4])/5; 
 
 //Display the info
-console.log("You have spent a total of $" + totalSpent + " " + "on groceries over 5 weeks. That is an average of $" + averageSpent + " " + "per week.");
+console.log("You have spent a total of $" + totalSpent + " on groceries over 5 weeks. That is an average of $" + averageSpent + " per week.");
 
 
 
@@ -72,4 +72,4 @@ var finalTax = withoutTax * tax;
 var withTax = withoutTax + finalTax;
 
 //Print the output
-console.log("Your" + " " + description + " " + "were originally $" + original + ", but after a $" + finalDiscount + " " + "discount, it is now $" + withoutTax + ", and $" + withTax + " " + "with tax.");
+console.log("Your " + description + " were originally $" + original + ", but after a $" + finalDiscount + " discount, it is now $" + withoutTax + ", and $" + withTax + " with tax.");
