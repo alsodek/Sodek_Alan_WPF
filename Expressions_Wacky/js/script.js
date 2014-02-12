@@ -12,8 +12,8 @@ var test2 = prompt("What is the third test grade?"); //Ask for the third test gr
 
 var test3 = prompt("What is the fourth test grade?"); //Ask for the fourth test grade.
 
-var test4 = prompt(); //Ask for the fifth test grade.
+var test4 = prompt("What is the fifth test grade?"); //Ask for the fifth test grade.
 
 var tests = [test0, test1, test2, test3, test4]; //The array.
 
-console.log(test3);
+console.log(test4);
