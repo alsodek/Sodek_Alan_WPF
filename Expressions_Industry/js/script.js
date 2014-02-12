@@ -13,4 +13,4 @@ var height = prompt("What is the height of the box?"); //Ask for the height of t
 
 var volume = length * width * height; //Multiply lenght * width * height to find the volume.
 
-console.log(volume);
+console.log("The volume of the box is " + volume + " cu. ft.");
