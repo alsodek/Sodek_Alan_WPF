@@ -18,4 +18,4 @@ var tests = [test0, test1, test2, test3, test4]; //The array.
 
 var average = (Number(tests[0]) + Number(tests[1]) + Number(tests[2]) + Number(tests[3]) + Number(tests[4]))/5;
 
-console.log(average);
+console.log("The average for all five tests is " + average + ".");
