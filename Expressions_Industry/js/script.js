@@ -11,6 +11,6 @@ var width = prompt("What is the width of the box?"); //Ask for the width of the 
 
 var height = prompt("What is the height of the box?"); //Ask for the height of the box.
 
+var volume = length * width * height; //Multiply lenght * width * height to find the volume.
 
-
-console.log(height);
+console.log(volume);
