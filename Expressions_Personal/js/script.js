@@ -9,7 +9,7 @@ var price = prompt("What is the current price of fuel (per gallon)?"); //Ask the
 
 var finalMiles = miles/mpg; //Divide the miles by the mpg.
  
-//var  = ; //Multiply by the price.
+var finalPrice = finalMiles * price ; //Multiply by the price.
 
-console.log(finalMiles);
+console.log(finalPrice); //Print the result.
 
