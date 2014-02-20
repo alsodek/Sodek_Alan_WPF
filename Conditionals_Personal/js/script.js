@@ -5,13 +5,13 @@
 //Can you afford the car you want?
 
 //Cost of Car.
-var car = 22,000;
+var car = 22000;
 
 //How much money you have saved.
-var savings = 20,000;
+var savings = 20000;
 
 //How much income you have per month.
-var income = 3,500;
+var income = 3500;
 
 //How much you have to pay for bills per month.
 var bills = prompt("How much do you pay for bills per month?");
