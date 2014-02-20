@@ -22,10 +22,7 @@ if(bills === ""){
 }else if(savings + income - bills >= car){
 	//If the savings plus income minus bills is greater than or equal to the car, you can afford the car.
 	console.log("You can afford the car!");
-}else if(){
-	//
-	
 }else{
-	//
-	
+	//If the amount is less than the car, you cannot afford the car.
+	console.log("I'm sorry, but you cannot afford the car.");
 }
