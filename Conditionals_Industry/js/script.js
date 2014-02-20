@@ -15,4 +15,10 @@ var image = prompt("How large is the image");
 if(bills === ""){
 	//If the prompt is left blank let the user know.
 	console.log("You forgot to input something!");
+}else if(){
+	//
+	
+}else{
+	//
+	
 }
