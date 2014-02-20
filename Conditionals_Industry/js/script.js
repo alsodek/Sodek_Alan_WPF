@@ -2,7 +2,10 @@
 //February 19, 2014
 //Conditionals
 
+//Will a desired image fit into a designated space.
 
+//Constant space.
+var space = 500;
 
 
 
