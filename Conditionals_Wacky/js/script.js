@@ -14,6 +14,9 @@ var day = prompt("Is it a.m. or p.m.?");
 if(time === ""){
 	//If the prompt is left blank let the user know.
 	console.log("You forgot to input something!");
+}else if(day === ""){
+	//If the prompt is left blank let the user know.
+	console.log("You forgot to input something!");
 }else if(time <= 5 && day === "a.m."){
 	//If it is 5 or earlier in the morning you will sleep.
 	console.log("You should go to sleep!");
