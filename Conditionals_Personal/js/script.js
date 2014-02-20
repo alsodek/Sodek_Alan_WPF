@@ -15,3 +15,11 @@ var income = 1,500;
 
 //How much you have to pay for bills per month.
 var bills = 500;
+
+if(){
+	//
+	
+}else{
+	//
+	
+}
