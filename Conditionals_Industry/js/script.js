@@ -11,14 +11,11 @@ var space = 500;
 var image = prompt("How large is the image");
 
 
-
+//
 if(image === ""){
 	//If the prompt is left blank let the user know.
 	console.log("You forgot to input something!");
-}else if(){
-	//
-	
-}else{
-	//
-	
 }
+
+//Ternary to evaluate if the image is small enough.
+(image < space) ? console.log("") : console.log("");
