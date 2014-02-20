@@ -28,5 +28,5 @@ if(time === ""){
 	console.log("Time to relax and go to the movies.");
 }else if(time >= 6 && day === "p.m."){
 	//If it is 6 or later in the afternoon you will do homework.
-	console.log("It's time to work on some homework.");
+	console.log("It's time to work on homework.");
 }
