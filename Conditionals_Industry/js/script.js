@@ -8,7 +8,7 @@
 var space = 500;
 
 //Ask for image size.
-var image = prompt("How large is the image");
+var image = prompt("How large is the image? (in pixels)");
 
 
 //This is if the user enters an empty prompt.
@@ -18,4 +18,4 @@ if(image === ""){
 }
 
 //Ternary to evaluate if the image is small enough.
-(image < space) ? console.log("The image will fit!") : console.log("The image is too large for this space.");
+(image <= space) ? console.log("The image will fit!") : console.log("The image is too large for this space.");
