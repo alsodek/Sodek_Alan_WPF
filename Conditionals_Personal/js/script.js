@@ -11,12 +11,18 @@ var car = 22,000;
 var savings = 20,000;
 
 //How much income you have per month.
-var income = 1,500;
+var income = 3,500;
 
 //How much you have to pay for bills per month.
-var bills = 500;
+var bills = prompt("How much do you pay for bills per month?");
 
-if(){
+if(bills === ""){
+	//If the prompt is left blank let the user know.
+	console.log("You forgot to input something!");
+}else if(savings + income - bills >= car){
+	//If the savings plus income minus bills is greater than or equal to the car, you can afford the car.
+	
+}else if(){
 	//
 	
 }else{
