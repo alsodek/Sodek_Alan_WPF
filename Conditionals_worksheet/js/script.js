@@ -51,3 +51,28 @@ if(username === correctUsername && password === correctPassword){
 	//If the password isn't correct tell the user.
 	console.log("Password does not match our records.");
 }
+
+
+
+//Tire Pressure
+//Check to see if the front tires are the same pressure and the back tires are the same pressure.
+
+//Set up the array.
+var tires = [30, 30, 28, 28];
+
+if(tires[0] === tires[1] && tires[2] === tires[3]){
+	//
+	console.log();
+}else{
+	//
+	console.log();
+}
+
+
+
+
+
+
+
+
+
