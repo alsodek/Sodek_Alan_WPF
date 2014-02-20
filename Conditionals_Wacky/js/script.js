@@ -5,7 +5,7 @@
 //What activity to do depending on what time of day it is.
 
 //Ask what time of day it is.
-var time = prompt("What time of day is it?");
+var time = prompt("What time of day is it? (whole number)");
 
 //Ask for a.m. or p.m..
 var day = prompt("Is it a.m. or p.m.?");
