@@ -61,11 +61,11 @@ if(username === correctUsername && password === correctPassword){
 var tires = [30, 30, 28, 28];
 
 if(tires[0] === tires[1] && tires[2] === tires[3]){
-	//
-	console.log();
+	//If the front two tires are the same and back two are the same the tires pass spec!
+	console.log("The tires pass spec!");
 }else{
-	//
-	console.log();
+	//If either the front tires aren't the same or the back aren't the same you need to check your tires!
+	console.log("Get your tires checked out!");
 }
 
 
