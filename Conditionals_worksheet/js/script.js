@@ -36,13 +36,13 @@ var username = prompt("Enter your username:");
 var password = prompt("Enter your password:");
 
 //Correct username
-var correctUsername = "";
+var correctUsername = "username";
 
 //Correct password
-var correctPassword = "";
+var correctPassword = "password";
 
 if(username === correctUsername && password === correctPassword){
-	//If the username and password are correct tell the user.
+	//If the username and password are correct welcome the user.
 	console.log("Welcome, " + username + "!");
 }else if(username != correctUsername){
 	//If the username isn't correct tell the user.
