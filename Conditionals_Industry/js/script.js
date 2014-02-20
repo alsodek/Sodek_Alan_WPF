@@ -7,6 +7,9 @@
 //Constant space.
 var space = 500;
 
+//Ask for image size.
+var image = prompt("How large is the image");
+
 
 
 if(bills === ""){
