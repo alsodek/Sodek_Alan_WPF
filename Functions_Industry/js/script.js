@@ -1,1 +1,3 @@
-alert("This is an alert");
+// Alan Sodek
+// February 27, 2014
+// Functions Industry
