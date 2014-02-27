@@ -11,14 +11,19 @@ var space = function(length, width){
 	
 }
 
-if(){
+var spaceArea = 375000;
 
-}else if(){
-
+//This is if the user enters an empty prompt.
+if(length === "" || width === ""){
+	//If the prompt is left blank let the user know.
+	console.log("You forgot to input something!");
+}else if(area > spaceArea){
+	// If the picture is larger than the area let the user know.
+	console.log("Your picture is too large!");
 }else{
-
+	// The picture is smaller than the area and can fit.
+	console.log("Your picture will fit!");
 }
 
-var a = space(500, 750);
 
-console.log(a);
+var a = space(500, 750);
