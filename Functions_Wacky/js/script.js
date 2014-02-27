@@ -7,12 +7,11 @@
 // Tree takes up 10 sq. ft.
 var tree = 10;
 
+var length = 100;
+var width = 100;
+var area = length * width;
+var totalTrees = area/trees;
 
+total = (totalTrees > 0 ) ? "You can put in " + totalTrees + " trees." : "You don't have enough room for a tree!";
 
-if(){
-	//
-	
-}else{
-	//
-	
-}
+console.log(totalTrees);
