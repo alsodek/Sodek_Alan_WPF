@@ -7,11 +7,18 @@
 
 
 function space(lengh, width, height){
-	// 
+	// Bags take up 5 sq. ft.
 	var bags = 5;
+	// Find Area of trunk by multiplying length, width and height.
 	var trunk = length * width * height;
+	// Divide the space of the trunk by the space of the bags.
 	var trunkSpace = trunk/bags;
+	// Return the results to the total variable.
 	return trunkSpace;
 }
 
+//
+var total = space();
 
+//Print out result.
+console.log();
