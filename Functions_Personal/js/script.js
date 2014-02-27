@@ -20,5 +20,12 @@ function space(lengh, width, height){
 // Tells the function the parameters.
 var total = space(20, 11, 8);
 
-//Print out result.
-console.log("You can fit " + total + " bags into your trunk.");
+
+if(){
+	//Print out result.
+	console.log("You can fit " + total + " bags into your trunk.");
+}else{
+	//Print out result.
+	console.log("You can fit " + total + " bags into your trunk.");
+}
+
