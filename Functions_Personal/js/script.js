@@ -18,7 +18,7 @@ function space(length, width, height){
 }
 
 // Tells the function the parameters.
-var total = space(20, 11, 8);
+var total = space(7, 4, 2);
 
 
 if(total > 0){
