@@ -14,4 +14,4 @@ var totalTrees = area/trees;
 
 total = (totalTrees > 0 ) ? "You can put in " + totalTrees + " trees." : "You don't have enough room for a tree!";
 
-console.log(totalTrees);
+console.log(total);
