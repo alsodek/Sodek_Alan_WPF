@@ -7,8 +7,8 @@
 var space = function(length, width){
 	// Calculate the area by multiplying length by width.
 	var area = length * width;
-	// 
-	
+	// Return the area results.
+	return area;
 }
 
 var spaceArea = 375000;
@@ -26,4 +26,4 @@ if(length === "" || width === ""){
 }
 
 
-var a = space(500, 750);
+var a = space(467, 650);
