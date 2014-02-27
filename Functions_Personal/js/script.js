@@ -6,8 +6,8 @@
 
 
 
-function space(lengh, width, height){
-	// Bags take up 5 sq. ft.
+function space(length, width, height){
+	// Bags take up 5 cu. ft.
 	var bags = 5;
 	// Find Area of trunk by multiplying length, width and height.
 	var trunk = length * width * height;
@@ -21,11 +21,11 @@ function space(lengh, width, height){
 var total = space(20, 11, 8);
 
 
-if(){
-	//Print out result.
+if(total > 0){
+	//Print out result if they can fit bags into their trunk.
 	console.log("You can fit " + total + " bags into your trunk.");
 }else{
-	//Print out result.
-	console.log("You can fit " + total + " bags into your trunk.");
+	//Print out result if they can't fit any bags.
+	console.log("You can't fit any bags in your trunk!");
 }
 
