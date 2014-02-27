@@ -11,9 +11,11 @@ function findTrees(lengh, width){
 	var area = length * width;
 	// Calculate how many trees can fit by dividing area by trees.
 	var totalTrees = area/trees;
+	// Return results to total variable.
+	return totalTrees;
 }
 
-
+var total = findTrees(100, 100);
 
 total = (totalTrees > 0 ) ? "You can put in " + totalTrees + " trees." : "You don't have enough room for a tree!";
 
