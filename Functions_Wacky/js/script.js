@@ -15,8 +15,8 @@ function findTrees(length, width){
 	return totalTrees;
 }
 
-var total = findTrees(100, 100);
+var total = findTrees(1, 1);
 
-final = (total > 0 ) ? "You can put in " + total + " trees." : "You don't have enough room for a tree!";
+final = (total > 1 ) ? "You can put in " + total + " trees." : "You don't have enough room for a tree!";
 
 console.log(final);
