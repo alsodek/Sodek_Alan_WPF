@@ -17,8 +17,8 @@ function space(lengh, width, height){
 	return trunkSpace;
 }
 
-//
-var total = space();
+// Tells the function the parameters.
+var total = space(20, 11, 8);
 
 //Print out result.
-console.log();
+console.log("You can fit " + total + " bags into your trunk.");
